@@ -1,0 +1,192 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.first-container{
+    background-image:url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    height:565px;
+    padding-top: 100px;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.header-logo{
+    position:absolute;
+    top:4.5%;
+    left:2.7%;
+}
+
+.header-logo:hover{
+    opacity:0.85;
+}
+
+.header-item{
+    display:flex;
+    justify-content:space-between;
+    text-align:center;
+    position:absolute;
+    right:17%;
+    top:3.5%;
+    bottom:2%;
+    font-weight: 900;
+    width:485px;
+}
+
+.header-item>div:hover{
+    opacity:0.8;
+}
+
+.header-item-english{
+    font-family:"Lato",sans-serif;
+    font-size:14px;
+    height:17px;
+}
+
+.header-item-japanes{
+    font-family:"游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    font-size:10px;
+    height:15px;
+}
+
+.header-item-content{
+    width:66.25px;
+}
+
+.header-item-interview{
+    width:78.38px;
+}
+
+.header-item-faq{
+    width:60px;
+}
+
+.header-item-recruit{
+    width:60px;
+}
+
+.header-item-blogs{
+    width:37.06px;
+}
+
+.header-button{
+    font-family:"游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    font-size:12px;
+    background-color:#f79215;
+    position:absolute;
+    top:3%;
+    right:3%;
+    padding:11px 19px;
+    border-radius: 30px;
+}
+
+.header-button:hover{
+    opacity:0.8;
+}
+
+.content-copy{
+    position:absolute;
+    top:13%;
+    left:13%;
+    text-align:center;
+    font-family:"Lato",sans-serif;
+    font-size:38px;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.content-info{
+    display:flex;
+    position:absolute;
+    flex-direction: row;
+    align-items:center;
+    top:28.5%;
+    left:12.5%;
+}
+
+.content-info>div{
+    padding:4px;
+}
+
+.content-button{
+    font-family:"游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    font-size:16px;
+    background-color:#f79215;
+    position:absolute;
+    top:58%;
+    left:13%;
+    padding:20.2px 148px;
+    border-radius: 40px;
+}
+
+.content-button:hover{
+    opacity:0.8;
+}
+
+.content-button a{
+    text-decoration: none;
+}
+
+.content-footnote{
+    position:absolute;
+    font-family:"游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    color: #a2a2a4;
+    font-size:12px;
+    font-weight:lighter;
+    top:74.5%;
+    left:13.5%;
+}
+
+.second-container{
+    background-color:#f79215;
+    position:relative;
+    height:385px;
+}
+
+.explanation-title{
+    font-family:"Lato",sans-serif;
+    margin:0;
+    font-size:38px;
+    font-weight:700;
+    position:absolute;
+    top:15%;
+    right:19%;
+}
+
+.explanation-text{
+    width:490px;
+    height:auto;
+    position:absolute;
+    top:31%;
+    right:13.5%;
+    line-height:26.5px;
+    font-family:"游ゴシック",YuGothic,"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    font-size:16px;
+}
+
+.explanation-video{
+    width:36.7%;
+    position:absolute;
+    top:11.4%;
+    left:13%;
+}
+
+.explanation-image img{
+    width:160px;
+    height:82.5px;
+    position:absolute;
+    bottom:15%;
+    right:36.5%;
+}
+
